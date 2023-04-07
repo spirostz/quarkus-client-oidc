@@ -21,7 +21,7 @@ class ClientTest {
 
     @Test
     void testTokenFailure() {
-            Response response = testClient.callHello(); //This should fail with 401
+            Response response = testClient.callHello(); //This should fail
 
                 //Given an existing valid realm
                 //And a failure on token creation (wrong credentials etc.)
