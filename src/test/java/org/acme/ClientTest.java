@@ -30,7 +30,7 @@ class ClientTest {
  //THE PROBLEM: //BUT We get valid Response (not failure) with status code = 0 (WRONG STATE)
 
  //--------------------------------------
- //Expected:    //Instead the testClient should fail with 401 Unauthorized status code
+ //Expected:    //Instead the testClient should fail with an Exception
 
             System.out.println("Status code: " + response.getStatus()); //Gives 0
     }
